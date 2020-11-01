@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A01882842543ECCA0020D58B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A01882832543ECCA0020D58B /* main.cpp */; };
+		A018828D2543EE620020D58B /* roster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A018828B2543EE620020D58B /* roster.cpp */; };
+		A01882912543EE6E0020D58B /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A018828F2543EE6E0020D58B /* student.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		A01882802543ECCA0020D58B /* Bryan_Jenks_WGU_C867_Task */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bryan_Jenks_WGU_C867_Task; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01882832543ECCA0020D58B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A018828B2543EE620020D58B /* roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roster.cpp; sourceTree = "<group>"; };
+		A018828C2543EE620020D58B /* roster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roster.h; sourceTree = "<group>"; };
+		A018828F2543EE6E0020D58B /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		A01882902543EE6E0020D58B /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
+		A01882932543EE7E0020D58B /* degree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = degree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				A01882832543ECCA0020D58B /* main.cpp */,
+				A018828B2543EE620020D58B /* roster.cpp */,
+				A018828C2543EE620020D58B /* roster.h */,
+				A018828F2543EE6E0020D58B /* student.cpp */,
+				A01882902543EE6E0020D58B /* student.h */,
+				A01882932543EE7E0020D58B /* degree.h */,
 			);
 			path = Bryan_Jenks_WGU_C867_Task;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A018828D2543EE620020D58B /* roster.cpp in Sources */,
+				A01882912543EE6E0020D58B /* student.cpp in Sources */,
 				A01882842543ECCA0020D58B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
